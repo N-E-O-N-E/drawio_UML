@@ -89,7 +89,10 @@
           <mxGeometry x="520" y="700" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-80" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Abbruchbedingungen&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;1. Erfolgreicher Einkauf bzw. Checkout für Programmende&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;2. Abbruch der Bestellung für Programmende&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="820" width="160" height="120" as="geometry" />
+          <mxGeometry x="520" y="840" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-81" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Hauptmenü&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;1. Kunden auswählen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;2. Kundeninfos anzeigen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;3. Produkte aussuchen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;4. Warenkorb anzeigen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;5. Bestellung abschließen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;6. Bestellung abbrechen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
