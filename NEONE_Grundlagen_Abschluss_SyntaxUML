@@ -31,9 +31,6 @@
         <mxCell id="hQ97eyJc4dPha4IXrYdW-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;class IPhone&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ speicher: Int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ upgradeSpeicher()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="520" y="240" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="hQ97eyJc4dPha4IXrYdW-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-53" target="hQ97eyJc4dPha4IXrYdW-61">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-53" value="struct Geschenk" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="440" width="160" height="160" as="geometry" />
         </mxCell>
@@ -49,7 +46,7 @@
         <mxCell id="hQ97eyJc4dPha4IXrYdW-61" value="struct Zubehoer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="440" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="hQ97eyJc4dPha4IXrYdW-62" value="+ name: String&lt;div&gt;+ preis: Double&lt;/div&gt;&lt;div&gt;+ rabbatPreis: Double&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-61">
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-62" value="+ name: String&lt;div&gt;+ preis: Double&lt;/div&gt;&lt;div&gt;+ rabattPreis: Double&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-61">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-61">
@@ -57,6 +54,42 @@
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-64" value="+ anzeigen()&lt;div&gt;+ berechneRabett()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-61">
           <mxGeometry y="108" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-66" value="protocoll Kaufbar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-67" value="&lt;div&gt;&lt;div&gt;+ preis: Double {get}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ lagerbestand: Int {get}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-66">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-66">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-69" value="+ kaufen(int) -&amp;gt; Bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-66">
+          <mxGeometry y="108" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-71" value="protocoll Rabattierbar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-72" value="&lt;div&gt;&lt;div&gt;+ rabatt: Double {get set}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ originalpreis: Double {get}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-71">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-71">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-74" value="+ berechnePreis() -&amp;gt; Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-71">
+          <mxGeometry y="108" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-77" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Enum ShopStatus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;case shopping&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;case bestellbestätigung&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;case bestellabschluss&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-78" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Extension 1&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Textformat für Titel mit&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;. capitalized&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Großschreibung erster Buchstabe mit .uppercased()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-79" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Extension 2&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Gesamtpreis aller Elemente des Warenkorbes berechnen&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="700" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-80" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Abbruchbedingungen&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;1. Erfolgreicher Einkauf bzw. Checkout für Programmende&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;2. Abbruch der Bestellung für Programmende&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="820" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
