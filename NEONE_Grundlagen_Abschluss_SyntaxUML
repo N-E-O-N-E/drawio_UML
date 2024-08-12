@@ -5,31 +5,43 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hQ97eyJc4dPha4IXrYdW-25" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;class Kunde&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ kundenNr: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ kontostand: Double&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ bonuspunkte: Int&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ anzeigen()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ kontostandAktualisieren()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ bonuspunkteAktualisieren()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="160" height="160" as="geometry" />
+          <mxGeometry x="240" y="40" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="hQ97eyJc4dPha4IXrYdW-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-30" target="hQ97eyJc4dPha4IXrYdW-31">
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-30" target="hQ97eyJc4dPha4IXrYdW-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-30" target="hQ97eyJc4dPha4IXrYdW-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-30" target="hQ97eyJc4dPha4IXrYdW-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;class Produkt&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ artikelNr: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ preis: Double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ lagerbestand: Int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ anzeigen()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rabattgeben(prozent: Int)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="160" height="160" as="geometry" />
+          <mxGeometry x="40" y="240" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-31" target="hQ97eyJc4dPha4IXrYdW-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;class IMac&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ screenSize: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ upgradeScreenSize()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="240" width="160" height="160" as="geometry" />
+          <mxGeometry x="240" y="240" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-48" target="hQ97eyJc4dPha4IXrYdW-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-48" target="hQ97eyJc4dPha4IXrYdW-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;class Shop&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ produkte: [Produkt]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ kunden: [Kunde]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ status: ShopStatus&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ produkteAnzeigen()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ menueAnzeigen()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ shoppingStart()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="160" height="160" as="geometry" />
+          <mxGeometry x="40" y="40" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQ97eyJc4dPha4IXrYdW-49" target="hQ97eyJc4dPha4IXrYdW-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;class MacBookAir&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ prozessor: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ upgradeProzessor()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="280" y="240" width="160" height="160" as="geometry" />
+          <mxGeometry x="440" y="240" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;class IPhone&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ speicher: Int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ upgradeSpeicher()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="240" width="160" height="160" as="geometry" />
+          <mxGeometry x="640" y="240" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-53" value="struct Geschenk" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="440" width="160" height="160" as="geometry" />
@@ -44,7 +56,7 @@
           <mxGeometry y="108" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-61" value="struct Zubehoer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="440" width="160" height="160" as="geometry" />
+          <mxGeometry x="240" y="440" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-62" value="+ name: String&lt;div&gt;+ preis: Double&lt;/div&gt;&lt;div&gt;+ rabattPreis: Double&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-61">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
@@ -56,7 +68,7 @@
           <mxGeometry y="108" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-66" value="protocoll Kaufbar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="640" width="160" height="160" as="geometry" />
+          <mxGeometry x="40" y="720" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-67" value="&lt;div&gt;&lt;div&gt;+ preis: Double {get}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ lagerbestand: Int {get}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-66">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
@@ -68,7 +80,7 @@
           <mxGeometry y="108" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-71" value="protocoll Rabattierbar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="640" width="160" height="160" as="geometry" />
+          <mxGeometry x="200" y="720" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-72" value="&lt;div&gt;&lt;div&gt;+ rabatt: Double {get set}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ originalpreis: Double {get}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-71">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
@@ -80,19 +92,19 @@
           <mxGeometry y="108" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-77" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Enum ShopStatus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;case shopping&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;case bestellbestätigung&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;case bestellabschluss&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="440" width="160" height="90" as="geometry" />
+          <mxGeometry x="400" y="720" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-78" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Extension 1&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Textformat für Titel mit&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;. capitalized&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Großschreibung erster Buchstabe mit .uppercased()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="560" width="160" height="120" as="geometry" />
+          <mxGeometry x="400" y="920" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-79" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Extension 2&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Gesamtpreis aller Elemente des Warenkorbes berechnen&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="700" width="160" height="100" as="geometry" />
+          <mxGeometry x="560" y="920" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-80" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Abbruchbedingungen&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;1. Erfolgreicher Einkauf bzw. Checkout für Programmende&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;2. Abbruch der Bestellung für Programmende&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="840" width="160" height="120" as="geometry" />
+          <mxGeometry x="200" y="920" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-81" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Hauptmenü&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;1. Kunden auswählen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;2. Kundeninfos anzeigen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;3. Produkte aussuchen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;4. Warenkorb anzeigen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;5. Bestellung abschließen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;6. Bestellung abbrechen&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="840" width="160" height="160" as="geometry" />
+          <mxGeometry x="40" y="920" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
