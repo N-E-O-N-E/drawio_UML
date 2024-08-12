@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hQ97eyJc4dPha4IXrYdW-112" value="NEONE - 02 Abschluss von Grundlagen der Programmierung bei Syntax" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=420;height=30;" vertex="1" parent="1">
+        <mxCell id="hQ97eyJc4dPha4IXrYdW-112" value="Markus Wirtz (NEONE) - 02 Abschluss von Grundlagen der Programmierung bei Syntax" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=490;height=30;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="830" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="hQ97eyJc4dPha4IXrYdW-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;class Shop&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ produkte: [Produkt]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ kunden: [Kunde]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ status: ShopStatus&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ produkteAnzeigen()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ menueAnzeigen()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ shoppingStart()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="hQ97eyJc4dPha4IXrYdW-112">
